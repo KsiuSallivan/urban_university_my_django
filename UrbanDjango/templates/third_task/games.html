@@ -7,8 +7,8 @@
 <body>
 <h1>Магазин</h1>
 {% for item, price in items.items %}
-  <p>{{ item }} - {{ price }} руб.
-<button>Купить</button></p>
+  <li>{{ item }} - {{ price }} руб.
+<button>Купить</button></li>
 {% endfor %} <br />
 <button><a href="/platform">Вернуться на главную</a></button>
 </body>
